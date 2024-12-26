@@ -1,35 +1,104 @@
-<main class="flex">
-  <section class="flex-column w-full lg:w-[700px] mx-auto mr-0 py-[10rem] text-10xl">
-    <h1>Hey, soy</h1>
-    <h2 class="px-[1rem]">Alejandro Romero</h2>
-    <h2 class="px-[6.5rem]">Stankevich</h2>
-    <h3 class="px-[9.5rem]">Desarrollador Web</h3>      
+<main class="w-[1880px]">
+  <section class="flex flex-col lg:flex-row items-center w-full py-[2rem]" id="Inicio">
+    <div class="text-section lg:w-[740px] lg:ml-[23rem]"> 
+      
+        <h1>Hey, soy</h1>
+        <h2 class="px-[1rem]">Alejandro Romero</h2>
+        <h2 class="px-[6.5rem]">Stankevich</h2>
+        <h3 class="px-[9.5rem]">Desarrollador Web</h3> 
+     
+        
 
     <nav class="flex gap-x-8 mt-8 ml-[9rem]"  id="Redes">
-      <a href="#" ><img src="/src/icons/email.png" alt="Email" class="w-9 h-9"></a>
-      <a href="#" ><img src="/src//icons/github.png" alt="GitHub" class="w-9 h-9"></a>
-      <a href="#" ><img src="/src/icons/linkedin.png" alt="LinkedIn" class="w-9 h-9"></a>
+      <a href="mailto:sasha.stankevich223@gmail.com" ><img src="/src/icons/email.png" alt="Email" class="w-9 h-9"></a>
+      <a href="https://github.com/al3-rom" ><img src="/src//icons/github.png" alt="GitHub" class="w-9 h-9"></a>
+      <a href="https://www.linkedin.com/in/alejandro-romero-stankevich-b42b30241/" ><img src="/src/icons/linkedin.png" alt="LinkedIn" class="w-9 h-9"></a>
     </nav>
 
+  </div>
+
+    <div class="image-section">
+      <img src="/IMG.jpg" alt="Foto de perfil" class="opacity-95 w-[25.5rem] h-[30.75rem]  transition duration-700 hover:rotate-6 hover:scale-105" id="FotoPerfil"/>
+    </div>
+
   </section>
-  <img src="/IMG.jpg" alt="Foto de perfil" class="w-[27.5rem] h-[33.75rem]" id="FotoPerfil"/>
-    
+ 
+  <section class="flex flex-col items-center py-[13rem] " id="AboutMe">
+    <h2 class="mb-20">SOBRE MI</h2>
+    <section class="about-me">
+      <p>
+        ¡Hola!👋  
+        Actualmente estudio <strong>Ciclo Formativo de Grado Superior</strong> de <strong>Desarrollo Web</strong> en un instituto de Vilanova i la Geltrú, mientras dedico mi tiempo libre a aprender sobre <strong>blockchain</strong> en el bootcamp "Conquer Blocks".
+        <br><br>
+        <em>¿Qué me define?</em>  
+        <ul>
+          <li>Trabajo en equipo 🤝</li>
+          <li>Proactividad 💡</li>
+          <li>Compromiso 🏆</li>
+        </ul>
+        🚀 Busco prácticas para crecer como desarrollador y aportar valor con mis conocimientos. ¡Listo para nuevos retos!
+      </p>
+    </section>
+  </section>
+
+  <section class="flex flex-col items-center py-[5rem] font-semibold opacity-90" id="Skills">
+    <h2>HABILIDADES</h2>
+    <div class="flex flex-col">
+    <h3 class="py-[5rem] pb-8 gap-x-[5rem]">UTILIZO AHORA:</h3>
+    <ul class="flex gap-x-10 pb-8">
+      <li><img src="/src/icons/html5.png" alt="HTML5">HTML5</li>
+      <li><img src="/src/icons/css.png" alt="CSS3">CSS3</li>
+      <li><img src="/src/icons/tailwindcss.png" alt="Tailwind CSS">Tailwind CSS</li>
+      <li><img src="/src/icons/astro.png" alt="Astro">Astro</li>
+      <li><img src="/src/icons/github.png" alt="GitHub">GitHub</li>
+      <li><img src="/src/icons/js.png" alt="JavaScript">JavaScript</li>
+      <li><img src="/src/icons/python.png" alt="Python">Python</li>
+      <li><img src="/src/icons/xml.png" alt="XML">XML</li>
+      <li><img src="/src/icons/figma.png" alt="Figma">Figma</li>
+    </ul>
+
+    <h3 class="pb-8">ESTOY APRENDIENDO:</h3>
+    <ul class="flex gap-x-10 pb-8">
+      <li><img src="/src/icons/docker.png" alt="Docker">Docker</li>
+      <li><img src="/src/icons/postgresql.png" alt="PostgreSQL">PostgreSQL</li>
+      <li><img src="/src/icons/sql.png" alt="SQL">SQL</li>    
+    </ul>
+
+    <h3 class="pb-8">IDIOMAS:</h3>
+    <ul class="flex gap-x-10">
+      <li><img src="/src/icons/castellano.png" alt="Castellano">Castellano C2</li>
+      <li><img src="/src/icons/ruso.png" alt="Ruso" >Ruso C2</li>
+      <li><img src="/src/icons/ingles.png" alt="Ingles">Inglés B2</li>
+      <li><img src="/src/icons/catalan.png" alt="Catalan">Catalan B1</li>
+    </ul>
+    </div>
+  </section>
+
+  <section class="flex flex-col items-center py-[5rem]" id="Curriculum1">
+    <h3 class="py-8" id="Curriculum">CURRICULUM</h3>
+    <h4 class="py-[3rem] flex flex-col items-center text-2xl">Aquí tienes mi currículum! <img src="/src/icons/flechaA.png" alt="flecha_abajo" class="py-2"> <a href="https://drive.google.com/drive/folders/1cHka-7JPcwb7azjmv8FxqB5q-ellmQoq?usp=sharing"><img src="/src/icons/CV.png" alt="curriculum_icono"></a></h4>
+  </section>
+  
+
+
 </main>
 
 <style>
-  h1 {
+
+  
+  #Inicio h1 {
     font-size: 2.5rem;
     font-weight: 700;
     color: #000000;
   }
 
-  h2 {
+  #Inicio h2 {
     font-size: 3.5rem;
     font-weight: 600;
     color: #000000;
   }
 
-  h3 {
+  #Inicio h3 {
 
     font-size: 1.5rem;
     font-weight: 700;
@@ -59,5 +128,99 @@
   #Redes a img{
     border-radius: 0.5rem;
   }
+
+  #AboutMe h2 {
+    font-size: 2rem;
+    font-weight: 700;
+
+    color: #000000;
+    padding: 1rem 5rem;
+    box-shadow: #000000 0px 0px 1px 8px;
+  }
+
+  #Skills h2 {
+    font-size: 2rem;
+    font-weight: 700;
+
+    color: #000000;
+    padding: 1rem 5rem;
+    box-shadow: #000000 0px 0px 1px 8px;
+  }
+
+  #Skills h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #000000;
+
+  }
+
+  #Skills img {
+    width: 2.5rem;
+    height: 2.5rem;
+   
+  }
+
+  #Skills img:hover {
+    scale: 1.3;
+    transition: 0.4s;
+
+  }
+
+  #Skills ul {
+   text-align: center;
+  }
+
+  #Curriculum {
+    font-size: 2rem;
+    font-weight: 700;
+
+    color: #000000;
+    padding: 1rem 5rem;
+    box-shadow: #000000 0px 0px 1px 8px;
+  }
+
+
+
+  .about-me {
+  background: linear-gradient(135deg, #e9e9e9, #c6c6c6);
+  border-radius: 12px;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+
+  line-height: 1.6;
+}
+
+
+.about-me p {
+  font-size: 1.1rem;
+}
+
+.about-me strong {
+  opacity: 1;
+  color: #343434;
+}
+
+.about-me em {
+  font-style: italic;
+  color: #555;
+}
+
+.about-me ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.about-me li {
+  margin-bottom: 5px;
+  list-style: none;
+}
+
+
+
+
+
  
 </style>
