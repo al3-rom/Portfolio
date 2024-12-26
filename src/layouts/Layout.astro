@@ -1,0 +1,43 @@
+---
+import '@fontsource-variable/onest';
+import Header from '../components/Header.astro';
+import Main from '../components/Main.astro';
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" href="#" />
+		<title>Portfolio</title>
+	</head>
+
+	<body>	
+		<main>
+			
+			<Header/>
+			<Main/>
+			<slot />
+		</main>
+	</body>
+</html>
+
+<style is:global>
+
+	html {
+		font-family: 'Onest Variable', sans-serif;
+	}
+
+	body {
+		background-color: #D7D7D7;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+</style>
+
+
+
+
+
